@@ -11,7 +11,7 @@ const Caracteristicas = () => {
       ajayu: 50,
       vitalidad: 60,
       oscuridad: 30,
-      img: "./images/elmeme.png", 
+      img: "./images/PoseSantiago1.png", 
     },
     Carmen: {
       nombre: "Carmen Quilla",
@@ -19,7 +19,7 @@ const Caracteristicas = () => {
       ajayu: 80,
       vitalidad: 70,
       oscuridad: 20,
-      img: "./images/elmeme.png", 
+      img: "./images/mujer1.png", 
     },
   };
 
@@ -31,7 +31,7 @@ const Caracteristicas = () => {
       <div className="relative z-10 text-center mb-10">
         <h1
           className="text-5xl font-extrabold tracking-widest"
-          style={{ textShadow: "0 0 15px rgba(0,255,100,0.7)" }}
+          style={{ textShadow: "0 0 15px rgba(212, 39, 8, 0.7)" }}
         >
           PERSONAJES
         </h1>
