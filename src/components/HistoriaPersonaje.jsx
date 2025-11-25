@@ -23,7 +23,6 @@ Santiago comprendió que la verdadera batalla no dependía solo de la fuerza fí
 const HistoriaPersonaje = ({ personaje }) => {
   if (!personaje) return null;
 
-  // Convertir clave interna a la usada en el objeto historias
   const key = personaje === "Carmen" || personaje === "Carmen Quilla" ? "Carmen" : "Santiago";
 
   return (
