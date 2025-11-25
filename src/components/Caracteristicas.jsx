@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import HistoriaPersonaje from "./HistoriaPersonaje";
 
 const Caracteristicas = () => {
   // PERSONAJES
@@ -113,6 +114,12 @@ const Caracteristicas = () => {
           />
         </div>
       </div>
+
+      {/* HISTORIA DEL PERSONAJE SELECCIONADO */}
+      <div className="relative z-10 px-8 lg:px-20">
+        <HistoriaPersonaje personaje={seleccionarPersonaje} />
+      </div>
+
     </div>
   );
 };
