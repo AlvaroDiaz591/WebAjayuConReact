@@ -1,8 +1,9 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Caracteristicas from './components/caracteristicas';
+import Caracteristicas from './components/Caracteristicas';
 import Historia from './components/Historia';
 import Trailer from './components/Trailer';
+import Autores from './components/Autores';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Historia/>
       <Caracteristicas/>
       <Trailer/>
+      <Autores/>
     </div>
   )
 }
